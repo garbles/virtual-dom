@@ -5,7 +5,7 @@ var svg = require("../svg")
 var attributeHook = require("../hooks/attribute-hook")
 
 test("svg returns a vnode", function (assert) {
-    assert.equal(svg("circle").tagName, "circle")
+    assert.equal(svg("circle").tagName, "CIRCLE")
     assert.equal(svg("circle").namespace, "http://www.w3.org/2000/svg")
 
     assert.end()

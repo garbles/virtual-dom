@@ -21,7 +21,7 @@ test("h defaults tagName to uppercase", function (assert) {
 })
 
 test("h preserves tagName case if namespace is given", function (assert) {
-    assert.equal(h("test", { namespace: "http://www.w3.org/XML/1998/namespace" }).tagName, "test")
+    assert.equal(h("test", { namespace: "http://www.w3.org/XML/1998/namespace" }).tagName, "TEST")
     assert.end()
 })
 
